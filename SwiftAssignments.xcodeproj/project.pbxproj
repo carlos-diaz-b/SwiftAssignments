@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F6497FB424173EBD005A0F23 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FB324173EBD005A0F23 /* main.swift */; };
-		F6497FBB24173ECD005A0F23 /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FBA24173ECC005A0F23 /* LCA.swift */; };
-		F6497FBD24173ED2005A0F23 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FBC24173ED2005A0F23 /* UF.swift */; };
-		F6497FBF24173ED8005A0F23 /* Set2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FBE24173ED8005A0F23 /* Set2.swift */; };
+		F6497FC12417417C005A0F23 /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FC02417417C005A0F23 /* LCA.swift */; };
+		F6497FC324174183005A0F23 /* Set2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FC224174183005A0F23 /* Set2.swift */; };
+		F6497FC52417418E005A0F23 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FC42417418E005A0F23 /* UF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +28,9 @@
 /* Begin PBXFileReference section */
 		F6497FB024173EBD005A0F23 /* SwiftAssignments */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAssignments; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6497FB324173EBD005A0F23 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		F6497FBA24173ECC005A0F23 /* LCA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LCA.swift; path = "../../Union-Find/Union-Find/LCA.swift"; sourceTree = "<group>"; };
-		F6497FBC24173ED2005A0F23 /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UF.swift; path = "../../Union-Find/UF.swift"; sourceTree = "<group>"; };
-		F6497FBE24173ED8005A0F23 /* Set2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Set2.swift; path = "../../Union-Find/Set2.swift"; sourceTree = "<group>"; };
+		F6497FC02417417C005A0F23 /* LCA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
+		F6497FC224174183005A0F23 /* Set2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set2.swift; sourceTree = "<group>"; };
+		F6497FC42417418E005A0F23 /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 		F6497FB224173EBD005A0F23 /* SwiftAssignments */ = {
 			isa = PBXGroup;
 			children = (
-				F6497FBE24173ED8005A0F23 /* Set2.swift */,
-				F6497FBC24173ED2005A0F23 /* UF.swift */,
-				F6497FBA24173ECC005A0F23 /* LCA.swift */,
+				F6497FC42417418E005A0F23 /* UF.swift */,
+				F6497FC224174183005A0F23 /* Set2.swift */,
+				F6497FC02417417C005A0F23 /* LCA.swift */,
 				F6497FB324173EBD005A0F23 /* main.swift */,
 			);
 			path = SwiftAssignments;
@@ -129,10 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6497FBB24173ECD005A0F23 /* LCA.swift in Sources */,
+				F6497FC12417417C005A0F23 /* LCA.swift in Sources */,
+				F6497FC324174183005A0F23 /* Set2.swift in Sources */,
+				F6497FC52417418E005A0F23 /* UF.swift in Sources */,
 				F6497FB424173EBD005A0F23 /* main.swift in Sources */,
-				F6497FBD24173ED2005A0F23 /* UF.swift in Sources */,
-				F6497FBF24173ED8005A0F23 /* Set2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
