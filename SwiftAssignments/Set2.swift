@@ -9,40 +9,51 @@
 import Foundation
 
 
-func getCyclicPermutation() {
+func CPermutation() {
+    
     let testCases: Int = Int(readLine()!)!
     for _ in 0..<testCases {
+        
         let n: Int = Int(readLine()!)!
         let e = readLine()!.split(separator: " ")
-        var uf = UF(n)
+        var uf = unionFind(n)
+        
+        
         for j in 0..<n {
-            if uf.connected(j, Int(e[j])! - 1) {
+            if uf.plug(j, Int(e[j])! - 1) {
                 continue
             }
-            uf.union(j, Int(e[j])! - 1)
+            uf.join(j, Int(e[j])! - 1)
         }
         print(uf.count)
     }
 }
 
-func getRepeatingSequence() {
+func Repeatsequence() {
     let input: [Substring]  = readLine()!.split(separator: " ")
     var A: Int = Int(input[0])!
     let P: Int = Int(input[1])!
     var dict: [Int:Int] = [:]
-    func helper(num: Int, power: Int) -> Int {
+    
+    
+    func backup(num: Int, power: Int) -> Int {
+        
         var quotient: Int = num
         var sum: Double = 0
         while(quotient != 0) {
             sum += pow(Double(quotient % 10), Double(power))
             quotient = quotient / 10
         }
+        
         return Int(sum)
+    
     }
+    
+    
     var index: Int = 0
     while !dict.keys.contains(A) {
         dict[A] = index
-        A = helper(num: A, power: P)
+        A = backup(num: A, power: P)
         index += 1
     }
     

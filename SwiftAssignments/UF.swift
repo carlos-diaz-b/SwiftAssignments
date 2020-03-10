@@ -19,7 +19,7 @@ import Foundation
 /// (in the worst case) and **count** takes constant time.
 /// Moreover, the amortized time per **union**, **find**, and **connected** operation
 /// has inverse Ackermann complexity (which is practically < 5 for 2^(2^(2^(2^16))) - undefined number).
-public struct UF {
+public struct unionFind {
     /// parent[i] = parent of i
     private var parent: [Int]
     /// size[i] = number of nodes in tree rooted at i
@@ -60,7 +60,7 @@ public struct UF {
     ///   - p: one elememt
     ///   - q: the other element
     /// - Returns: `true` if `p` and `q` are in the same set; `false` otherwise
-    public mutating func connected(_ p: Int, _ q: Int) -> Bool {
+    public mutating func plug(_ p: Int, _ q: Int) -> Bool {
          return parent[p] == parent[q]
     }
     
@@ -69,7 +69,7 @@ public struct UF {
     /// - Parameters:
     ///   - p: one element
     ///   - q: the other element
-    public mutating func union(_ p: Int, _ q: Int) {
+    public mutating func join(_ p: Int, _ q: Int) {
           let pRoot: Int = find(p)
                 let qRoot: Int = find(q)
                 if (pRoot == qRoot) { return }
