@@ -70,15 +70,18 @@ public struct unionFind {
     ///   - p: one element
     ///   - q: the other element
     public mutating func join(_ p: Int, _ q: Int) {
-          let pRoot: Int = find(p)
-                let qRoot: Int = find(q)
-                if (pRoot == qRoot) { return }
-                if (size[pRoot] < size[qRoot]) {
-                    parent[pRoot] = qRoot
-                    size[qRoot] += size[pRoot]
+         
+            let Raiz: Int = find(p)
+                
+            let ruta: Int = find(q)
+               
+        if (Raiz == ruta) { return }
+                if (size[Raiz] < size[ruta]) {
+                    parent[Raiz] = ruta
+                    size[ruta] += size[Raiz]
                 } else {
-                    parent[qRoot] = pRoot
-                    size[pRoot] += size[qRoot]
+                    parent[ruta] = Raiz
+                    size[Raiz] += size[ruta]
                 }
                 count -= 1
             }
