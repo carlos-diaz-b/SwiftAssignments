@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Solution {
+class Solution7 {
    
     func twoCitySchedCost(_ costs: [[Int]]) -> Int {
         let n = costs.count / 2

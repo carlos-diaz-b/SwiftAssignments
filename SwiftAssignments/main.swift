@@ -10,13 +10,18 @@ import Foundation
 
 //LCA()
 
-
 //unionFind()
 
+//tomatoFarm()
+//bridges()
 
 //CPermutation()
 //Repeatsequence()
 
-//Solution()
+//Solution6()
+
+//Solution7()
+
+
 
 
