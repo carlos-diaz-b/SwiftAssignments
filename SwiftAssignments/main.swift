@@ -8,5 +8,15 @@
 
 import Foundation
 
-print("Hello, World!")
+//LCA()
+
+
+//unionFind()
+
+
+//CPermutation()
+//Repeatsequence()
+
+//Solution()
+
 
