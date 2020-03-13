@@ -16,6 +16,13 @@
 		F6497FCB24188F70005A0F23 /* Set6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FCA24188F70005A0F23 /* Set6.swift */; };
 		F6497FCD241AD699005A0F23 /* NonDecreasingDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FCC241AD699005A0F23 /* NonDecreasingDigits.swift */; };
 		F6497FCF241B240E005A0F23 /* Set8.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FCE241B240E005A0F23 /* Set8.swift */; };
+		F6497FD6241C2D73005A0F23 /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FD5241C2D73005A0F23 /* ClimbingStairs.swift */; };
+		F6497FD8241C34D7005A0F23 /* MakeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FD7241C34D7005A0F23 /* MakeOne.swift */; };
+		F6497FDA241C34F6005A0F23 /* 2xNtiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FD9241C34F6005A0F23 /* 2xNtiles.swift */; };
+		F6497FDC241C3C55005A0F23 /* 2xNtiles-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FDB241C3C55005A0F23 /* 2xNtiles-2.swift */; };
+		F6497FDE241C3C76005A0F23 /* 123.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FDD241C3C76005A0F23 /* 123.swift */; };
+		F6497FE0241C3C8D005A0F23 /* PrettyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FDF241C3C8D005A0F23 /* PrettyNumber.swift */; };
+		F6497FE2241C3CAE005A0F23 /*  LongestIncreasingSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FE1241C3CAE005A0F23 /*  LongestIncreasingSubsequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +48,13 @@
 		F6497FCA24188F70005A0F23 /* Set6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set6.swift; sourceTree = "<group>"; };
 		F6497FCC241AD699005A0F23 /* NonDecreasingDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonDecreasingDigits.swift; sourceTree = "<group>"; };
 		F6497FCE241B240E005A0F23 /* Set8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set8.swift; sourceTree = "<group>"; };
+		F6497FD5241C2D73005A0F23 /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
+		F6497FD7241C34D7005A0F23 /* MakeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOne.swift; sourceTree = "<group>"; };
+		F6497FD9241C34F6005A0F23 /* 2xNtiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2xNtiles.swift; sourceTree = "<group>"; };
+		F6497FDB241C3C55005A0F23 /* 2xNtiles-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2xNtiles-2.swift"; sourceTree = "<group>"; };
+		F6497FDD241C3C76005A0F23 /* 123.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 123.swift; sourceTree = "<group>"; };
+		F6497FDF241C3C8D005A0F23 /* PrettyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyNumber.swift; sourceTree = "<group>"; };
+		F6497FE1241C3CAE005A0F23 /*  LongestIncreasingSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LongestIncreasingSubsequence.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,7 @@
 		F6497FB224173EBD005A0F23 /* SwiftAssignments */ = {
 			isa = PBXGroup;
 			children = (
+				F6497FD4241C2D3D005A0F23 /* ProblemSet */,
 				F6497FC42417418E005A0F23 /* UF.swift */,
 				F6497FC224174183005A0F23 /* Set2.swift */,
 				F6497FC02417417C005A0F23 /* LCA.swift */,
@@ -80,10 +95,24 @@
 				F6497FC6241744C1005A0F23 /* Set3.swift */,
 				F6497FC824184906005A0F23 /* Set7.swift */,
 				F6497FCA24188F70005A0F23 /* Set6.swift */,
-				F6497FCC241AD699005A0F23 /* NonDecreasingDigits.swift */,
 				F6497FCE241B240E005A0F23 /* Set8.swift */,
 			);
 			path = SwiftAssignments;
+			sourceTree = "<group>";
+		};
+		F6497FD4241C2D3D005A0F23 /* ProblemSet */ = {
+			isa = PBXGroup;
+			children = (
+				F6497FCC241AD699005A0F23 /* NonDecreasingDigits.swift */,
+				F6497FD5241C2D73005A0F23 /* ClimbingStairs.swift */,
+				F6497FD7241C34D7005A0F23 /* MakeOne.swift */,
+				F6497FD9241C34F6005A0F23 /* 2xNtiles.swift */,
+				F6497FDB241C3C55005A0F23 /* 2xNtiles-2.swift */,
+				F6497FDD241C3C76005A0F23 /* 123.swift */,
+				F6497FDF241C3C8D005A0F23 /* PrettyNumber.swift */,
+				F6497FE1241C3CAE005A0F23 /*  LongestIncreasingSubsequence.swift */,
+			);
+			path = ProblemSet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,14 +173,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6497FE2241C3CAE005A0F23 /*  LongestIncreasingSubsequence.swift in Sources */,
+				F6497FE0241C3C8D005A0F23 /* PrettyNumber.swift in Sources */,
+				F6497FDE241C3C76005A0F23 /* 123.swift in Sources */,
 				F6497FCD241AD699005A0F23 /* NonDecreasingDigits.swift in Sources */,
+				F6497FD8241C34D7005A0F23 /* MakeOne.swift in Sources */,
 				F6497FC12417417C005A0F23 /* LCA.swift in Sources */,
+				F6497FD6241C2D73005A0F23 /* ClimbingStairs.swift in Sources */,
 				F6497FC324174183005A0F23 /* Set2.swift in Sources */,
 				F6497FC7241744C1005A0F23 /* Set3.swift in Sources */,
 				F6497FC52417418E005A0F23 /* UF.swift in Sources */,
 				F6497FC924184906005A0F23 /* Set7.swift in Sources */,
 				F6497FB424173EBD005A0F23 /* main.swift in Sources */,
 				F6497FCF241B240E005A0F23 /* Set8.swift in Sources */,
+				F6497FDC241C3C55005A0F23 /* 2xNtiles-2.swift in Sources */,
+				F6497FDA241C34F6005A0F23 /* 2xNtiles.swift in Sources */,
 				F6497FCB24188F70005A0F23 /* Set6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,7 @@
 
 import Foundation
 class Solution8 {
+    
     func networkDelayTime(_ times: [[Int]], _ N: Int, _ K: Int) -> Int {
       
         
@@ -30,11 +31,14 @@ class Solution8 {
                 }
             }
         }
-        var lenght = timeamount[K]
-        lenght.removeFirst()
-        let maxDistance = lenght.max()!
+            var lenght = timeamount[K]
+            lenght.removeFirst()
+            let maxDistance = lenght.max()!
+        
         return maxDistance == Int.max ? -1 : maxDistance
     }
 }
+
+
 
 

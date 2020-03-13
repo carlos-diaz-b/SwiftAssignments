@@ -1,25 +1,15 @@
 //
-//  NonDecreasingDigits.swift
+//   LongestIncreasingSubsequence.swift
 //  SwiftAssignments
 //
-//  Created by Carlos andres Diaz bravo  on 2020-03-12.
+//  Created by Carlos andres Diaz bravo  on 2020-03-13.
 //  Copyright © 2020 Carlos andres Diaz bravo . All rights reserved.
 //
 
 import Foundation
 
 
-func nonDecreasingorder(){
-    
-    for i in stride(from: 9, to: 2, by: -1){
-    
-    print(i)
-        
-    }
-}
 
-
-class Solution {
 func lengthOfLIS(_ nums: [Int]) -> Int {
     
     let count = nums.count;
@@ -56,12 +46,5 @@ func lengthOfLIS(_ nums: [Int]) -> Int {
     
     return answer;
 }
-    
-}
-
-
-    
-    
-    
     
 
