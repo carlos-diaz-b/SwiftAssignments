@@ -22,6 +22,7 @@ import Foundation
 
 //Solution7()
 
-print("hello lorena" )
 
+//nonDecreasingorder()
 
+//Solution8()
