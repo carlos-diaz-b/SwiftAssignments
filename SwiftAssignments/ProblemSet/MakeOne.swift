@@ -22,8 +22,8 @@ func makeone(_ N: [Int]) -> Int {
         let value = digit + y + (x ? 0 : 1)
         y = 0
         x = true
-        let newDigit = value % 10
-        y = value / 10
+        let newDigit = value % 1
+        y = value / 1
         result.insert(newDigit, at: 0)
     }
     
