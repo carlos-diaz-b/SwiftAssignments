@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F62A4D352421784A00F51441 /* EqualSubsetSubPartition .swift in Sources */ = {isa = PBXBuildFile; fileRef = F62A4D342421784A00F51441 /* EqualSubsetSubPartition .swift */; };
 		F6497FB424173EBD005A0F23 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FB324173EBD005A0F23 /* main.swift */; };
 		F6497FC12417417C005A0F23 /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FC02417417C005A0F23 /* LCA.swift */; };
 		F6497FC324174183005A0F23 /* Set2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6497FC224174183005A0F23 /* Set2.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F62A4D342421784A00F51441 /* EqualSubsetSubPartition .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EqualSubsetSubPartition .swift"; sourceTree = "<group>"; };
 		F6497FB024173EBD005A0F23 /* SwiftAssignments */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAssignments; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6497FB324173EBD005A0F23 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F6497FC02417417C005A0F23 /* LCA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F62A4D312421780D00F51441 /* DPPractice */ = {
+			isa = PBXGroup;
+			children = (
+				F62A4D342421784A00F51441 /* EqualSubsetSubPartition .swift */,
+			);
+			path = DPPractice;
+			sourceTree = "<group>";
+		};
 		F6497FA724173EBD005A0F23 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		F6497FB224173EBD005A0F23 /* SwiftAssignments */ = {
 			isa = PBXGroup;
 			children = (
+				F62A4D312421780D00F51441 /* DPPractice */,
 				F6497FD4241C2D3D005A0F23 /* ProblemSet */,
 				F6497FC42417418E005A0F23 /* UF.swift */,
 				F6497FC224174183005A0F23 /* Set2.swift */,
@@ -183,6 +194,7 @@
 				F6497FC324174183005A0F23 /* Set2.swift in Sources */,
 				F6497FC7241744C1005A0F23 /* Set3.swift in Sources */,
 				F6497FC52417418E005A0F23 /* UF.swift in Sources */,
+				F62A4D352421784A00F51441 /* EqualSubsetSubPartition .swift in Sources */,
 				F6497FC924184906005A0F23 /* Set7.swift in Sources */,
 				F6497FB424173EBD005A0F23 /* main.swift in Sources */,
 				F6497FCF241B240E005A0F23 /* Set8.swift in Sources */,
